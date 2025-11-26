@@ -32,7 +32,7 @@ public class WhileLoops {
    public static int countEvensUpTo(int n) {
     int count = 1;
     int even = 0;
-       while (count < n) {
+       while (count <= n) {
         if (count % 2 == 0){
             even ++;
         }
@@ -83,7 +83,7 @@ public class WhileLoops {
     * // can't subtract without going negative
     */
    public static int countDownBy(int start, int step) {
-       while (Start >= 0) {
+       while (start >= 0) {
         start =- step;
        }
        start =+ step;
